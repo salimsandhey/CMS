@@ -39,7 +39,7 @@ This is the **most important step.** You must connect a Site to a Year before up
 Now that the connection exists, you can upload your PDFs and Images!
 
 - **Validation Reports:** Click "Validation Reports", choose the exact "Site - Year" combination from the dropdown, give the report a title, and upload a `.pdf` file. You can also add notes in the "Customer Feedback" area. You can only have ONE report per Site-Year combination.
-- **Test Reports:** Click "Test Reports". This works exactly like Validation Reports, but you can upload as many test reports as you want to the same Site-Year combination. It also includes the "Customer Feedback" area to capture client notes.
+- **Test Reports:** Click "Test Reports". This works exactly like Validation Reports, but you can upload **multiple `.pdf` test reports at the same time** to the same Site-Year combination. It also includes the "Customer Feedback" area to capture client notes.
 - **Site Images:** Click "Site Images". Select your "Site - Year" combination, upload your picture (`.jpg` or `.png`), and add a small caption if you want. You can upload multiple images securely.
 
 ---

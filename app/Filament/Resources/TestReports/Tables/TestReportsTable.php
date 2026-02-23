@@ -14,8 +14,8 @@ class TestReportsTable
     {
         return $table
             ->columns([
-                TextColumn::make('site_year_id')
-                    ->numeric()
+                TextColumn::make('siteYear.site.site_name')
+                    ->label('Site')
                     ->sortable(),
                 TextColumn::make('report_title')
                     ->searchable(),
@@ -23,7 +23,8 @@ class TestReportsTable
                     ->date()
                     ->sortable(),
                 TextColumn::make('file_path')
-                    ->searchable(),
+                    ->label('Attached Files')
+                    ->formatStateUsing(fn ($state) => count((array) $state) . ' file(s)'),
                 TextColumn::make('created_at')
                     ->dateTime()
                     ->sortable()

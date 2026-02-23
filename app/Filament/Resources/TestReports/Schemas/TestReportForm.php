@@ -24,6 +24,7 @@ class TestReportForm
                 DatePicker::make('report_date'),
                 FileUpload::make('file_path')
                     ->acceptedFileTypes(['application/pdf'])
+                    ->multiple()
                     ->directory('test-reports')
                     ->required(),
                 Textarea::make('customer_feedback')

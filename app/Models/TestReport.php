@@ -8,6 +8,10 @@ class TestReport extends Model
 {
     protected $guarded = [];
 
+    protected $casts = [
+        'file_path' => 'array',
+    ];
+
     public function siteYear()
     {
         return $this->belongsTo(SiteYear::class);
